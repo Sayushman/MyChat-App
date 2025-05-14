@@ -1,0 +1,83 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 40px;
+    /* color: rgb(107, 12, 196); */
+    /* color: rgb(179, 207, 17); */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-variant: unset;
+    /* font-style: italic; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+/* body{
+    background-color: linear-gradient(rgb(255, 255, 255), purple)
+} */
+
+.container{
+    max-width: 955px;
+    /* background-color: rgb(0, 238, 255); */
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: gray;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    background-color: bisque;
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#messageInp{
+    width: 83%;
+    border: 2px solid  black;
+    border-radius: 6px;
+    height: 40px;
+    
+}
+
+.btn{
+    width: 15%;
+    /* color: blanchedalmond; */
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 45px;
+    text-size-adjust: auto;
+    
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239));
+}
